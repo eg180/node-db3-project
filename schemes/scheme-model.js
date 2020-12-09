@@ -9,5 +9,10 @@ module.exports = {
 
         
         
+    },
+
+    findById(id) {
+        return db('Product')
+        .select().where('id', id)
     }
 }
