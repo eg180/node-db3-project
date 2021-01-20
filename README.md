@@ -31,6 +31,7 @@ SELECT
 FROM Product as p
 JOIN Category as c
 ON p.CategoryId = c.Id;
+✅ Done
 
 
 - Display the order Id and shipper CompanyName for all orders placed before August 9 2012. Returns 429 records.
